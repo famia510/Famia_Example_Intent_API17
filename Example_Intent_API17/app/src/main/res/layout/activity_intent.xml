@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/ButtonTel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="撥號 119 (view)" />
+
+        <Button
+            android:id="@+id/ButtonPeople"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="聯絡人"/>
+
+        <Button
+            android:id="@+id/ButtonSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="寄SMS給" />
+
+        <Button
+            android:id="@+id/ButtonEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="寄信給03130000@me.mcu.edu.tw"/>
+
+        <Button
+            android:id="@+id/ButtonCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相機"/>
+
+        <Button
+            android:id="@+id/ButtonImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相簿" />
+
+        <Button
+            android:id="@+id/ButtonUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="顯示Google網頁"/>
+
+        <Button
+            android:id="@+id/ButtonGMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Map"></Button>
+
+        <Button
+            android:id="@+id/ButtonRoutePlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="路徑規劃"></Button>
+
+        <Button
+            android:id="@+id/ButtonMarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="market://search?q=play"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
